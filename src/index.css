@@ -1,0 +1,22 @@
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*background-image: url(/public/waves.png);*/
+  background-image: url("data:image/svg+xml,%3Csvg width='100%25' height='100%25' id='svg' viewBox='0 0 1440 600' xmlns='http://www.w3.org/2000/svg' class='transition duration-300 ease-in-out delay-150'%3E%3Cdefs%3E%3ClinearGradient id='gradient' x1='50%25' y1='0%25' x2='50%25' y2='100%25'%3E%3Cstop offset='5%25' stop-color='%2330475e88'%3E%3C/stop%3E%3Cstop offset='95%25' stop-color='%23f0545488'%3E%3C/stop%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d='M 0 600 C 0 600 0 200 0 200 C 94.92857142857142 210.17857142857144 189.85714285714283 220.35714285714286 313 206 C 436.14285714285717 191.64285714285714 587.5000000000001 152.75 717 145 C 846.4999999999999 137.25 954.1428571428571 160.64285714285717 1071 175 C 1187.857142857143 189.35714285714283 1313.9285714285716 194.67857142857142 1440 200 C 1440 200 1440 600 1440 600 Z' stroke='none' stroke-width='0' fill='url(%23gradient)' class='transition-all duration-300 ease-in-out delay-150 path-0'%3E%3C/path%3E%3Cdefs%3E%3ClinearGradient id='gradient' x1='50%25' y1='0%25' x2='50%25' y2='100%25'%3E%3Cstop offset='5%25' stop-color='%2330475eff'%3E%3C/stop%3E%3Cstop offset='95%25' stop-color='%23f05454ff'%3E%3C/stop%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d='M 0 600 C 0 600 0 400 0 400 C 152.5 423.3928571428571 305 446.7857142857143 414 433 C 523 419.2142857142857 588.5000000000001 368.25 700 367 C 811.4999999999999 365.75 969 414.2142857142857 1100 428 C 1231 441.7857142857143 1335.5 420.8928571428571 1440 400 C 1440 400 1440 600 1440 600 Z' stroke='none' stroke-width='0' fill='url(%23gradient)' class='transition-all duration-300 ease-in-out delay-150 path-1'%3E%3C/path%3E%3C/svg%3E ");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #30475E;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

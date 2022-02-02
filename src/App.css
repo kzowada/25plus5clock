@@ -1,0 +1,119 @@
+html {
+  --customWhite: #F5F5F5;
+  --customRed: #F05454;
+  --customBlue: #30475E;
+  --customBlack: #121212;
+}
+
+h1 {
+  font-size: 3rem;
+  color: var(--customWhite);
+}
+
+.all-content-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.session-break-display {
+  font-size: 1.5rem;
+  width: 35rem;
+  color: var(--customWhite);
+  border: 3px solid var(--customBlack);
+  border-radius: 5px;
+  box-shadow: 1px 2px 8px var(--customBlack);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 1rem;
+}
+
+.time-left {
+  font-size: 5rem;
+  padding: 5px;
+  margin: 5px;
+}
+
+.start-stop {
+  color: var(--customWhite);
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+.reset {
+  font-size: 1.5rem;
+  font-weight: 500000;
+}
+
+.session-mod-component {
+  color: var(--customWhite);
+  border: 3px solid var(--customBlack);
+  border-radius: 5px;
+  box-shadow: 1px 2px 8px var(--customBlack);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 2rem;
+  font-size: 2rem;
+}
+
+.break-mod-component {
+  color: var(--customWhite);
+  border: 3px solid var(--customBlack);
+  border-radius: 5px;
+  box-shadow: 1px 2px 8px var(--customBlack);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin: 2rem;
+  font-size: 2rem;
+}
+
+.session-label, .break-label {
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+.session-length, .break-length {
+  margin: 5px;
+  padding: 5px;
+}
+
+.session-break-mod-container {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 40rem;
+  margin: 2rem;
+  margin-bottom: 5px;
+}
+
+.session-increment, .session-decrement, .break-increment, .break.decrement {
+  padding: 5px;
+  margin: 5px;
+}
+
+.onClick:active {
+  color: #F05454;
+}
+
+footer > p {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
